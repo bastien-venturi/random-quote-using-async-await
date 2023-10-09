@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(159, 159, 159);
+}
+main{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    button{
+            text-shadow:rgb(112, 229, 76) 0px 1px 1px, rgb(141, 37, 37) 0px -1px 1px, rgb(80, 188, 172) 1px 0px 1px, rgb(60, 158, 70) -1px 0px 1px;
+            border-radius: 50px;
+            margin: 20px;
+            padding: 10px;
+            background-color:rgb(182, 182, 182);;
+       }
+    .section1{
+        border-radius: 90px;
+        width: 50%;
+        height: 50%;
+        background-color: rgb(83, 83, 83);
+        padding: 20px;
+        h1{
+            font-style: italic;
+            letter-spacing: 2px;
+            margin: 10px;
+            color:  rgb(182, 182, 182);
+        }
+        img{
+
+            border-radius: 90px;
+            object-fit: cover;
+            width: 250px;
+            height: 250px;
+        }
+        p{
+            font-style: italic;
+            margin: 20px;
+            letter-spacing: 2px;
+            line-height: 30px;
+            color : rgb(182, 182, 182);
+        }
+    }
+ }
+ 
